@@ -1,0 +1,11 @@
+---
+require:
+- jekyll-compass
+- sass-globbing
+
+project_path: "/media/discipolo/DATA/DEV/Projectrepos/CLIENTS/HAZEL/JEKYLL/wozugeschichte/"
+http_path: "/"
+css_dir: "assets/themes/bootstrap-3-sass/css"
+sass_dir: "assets/themes/bootstrap-3-sass/_scss"
+images_dir: "images"
+javascripts_dir: "javascripts"

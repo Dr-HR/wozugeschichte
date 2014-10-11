@@ -1,0 +1,11 @@
+.footer-logo {
+  padding: 56px 250px;
+  background: url(/images/angewandtelogo.png) no-repeat;
+  background-size: cover;
+}
+.page-footer {
+  @include transform(rotate(-1.2deg));
+  p {
+    @include contrasted($panel-footer-bg);
+  }
+}

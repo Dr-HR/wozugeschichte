@@ -1,0 +1,21 @@
+//front page style
+.url_index {
+  background: $other-body-bg;
+  color:$gray-lighter;
+  a {
+    color: $gray-lighter;
+  }
+  article {
+    @include article-hover();
+    margin-bottom:20px;
+    min-height:200px;
+  }
+  small {
+    color: $gray-dark;
+  }
+
+}
+
+.page-header{
+  border: 0;
+}

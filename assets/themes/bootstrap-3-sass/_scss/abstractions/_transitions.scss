@@ -1,0 +1,33 @@
+@mixin article-hover() {
+
+    hr {
+      border:5px;
+      height:5px;
+      border-color: $border-color;
+      background: $gray-lighter;
+      width:auto;
+
+      @include transition-property(all);
+      @include transition-duration(.1s);
+      @include transition-timing-function(ease-in);
+      @include transform(rotate(-1deg));
+
+    }
+    &:hover {
+      h2 {
+        text-decoration:none;
+      }
+
+      hr {
+        border-color: lighten($border-color, 15%);
+        border:1px;
+        height:1px;
+
+        @include transform(rotate(0deg));
+
+
+      }
+    }
+
+
+}

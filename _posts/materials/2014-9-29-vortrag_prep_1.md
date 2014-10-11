@@ -2,7 +2,7 @@
 layout: post
 category : Vorlesung
 title: "Spurensuche im 19 Jahrhundert"
-tagline: "APP"
+tagline: "Mit dem Wiener Kongress beginnt die Geschichte der Gegenwart"
 ---
 {% include JB/setup %}
 
@@ -12,7 +12,7 @@ Da ich nicht weiß, welche Studierenden kommen, ob Sie aus der Abteilung Design 
 
 
 z.B. ein Zitat von Egon Fridell, dem Verfasser der Kulturgeschichte der Menschheit, die immerhin von den Anfängen bis ins 20. Jahrhundert reicht.
-Seite 940 meiner Ausgabe: 
+Seite 940 meiner Ausgabe:
 “Mit dem Wiener Kongress beginnt die Geschichte der Gegenwart”
 
 Seine Gegenwart, das Jahr, in dem die erste Ausgabe veröffentlicht wurde, war 1928
@@ -36,7 +36,7 @@ s.a. Wiki-Definition von Kulturellem Gedächtnis:
 Als kulturelles Gedächtnis bezeichnen die deutschen Kulturwissenschaftler Jan Assmann und Aleida Assmann „die Tradition in uns, die über Generationen, in jahrhunderte-, ja teilweise jahrtausendelanger Wiederholung gehärteten Texte, Bilder und Riten, die unser Zeit- und Geschichtsbewußtsein, unser Selbst- und Weltbild prägen.“
 samt der Frage, ob und wie und vor allem über welche “Medien” das 19. Jahrhundert in unserem Gedächtnis oder zumindest den Schulbüchern und Lexika aufbewahrt wird.
 
-###Leicht greifbare Literatur dazu: 
+###Leicht greifbare Literatur dazu:
 
 - Aleida Assmann, Auf dem Weg zu einer europäischen Gedächtniskultur (Wiener Vorlesungen)
 - Klaus Leggewie, Der Kampf um die europäische Erinnerung: Ein Schlachtfeld wird besichtigt
@@ -53,3 +53,7 @@ s.a. Literaturhinweise zum Semnar
 - Forts. folgt
 
 __Kommentare, Fragen, Anmerkungen sind willkommen__
+
+###Termine  
+Vorbesprechung am **Montag, 20. Oktober 15:00 - 17:00**, HS 5 (Oskar-Kokoschka-Platz 2, Schwanzer Trakt)  
+Die Vorlesung findet als Blockveranstaltung statt, weitere Termine werden noch bekanntgegeben.

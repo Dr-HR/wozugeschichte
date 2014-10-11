@@ -1,0 +1,32 @@
+// Import external libraries.
+@import "compass";
+// sample style.scss
+// btw how good is using // to comment stuff out, SASS is worth it for this alone
+// Import variables, abstractions, base styles and components using globbing.
+//
+// Globbing will always import files alphabetically. Optimally, all your
+// components should be self-contained and explicit enough to not have any
+// contained styles leak into unrelated components: The import order should not
+// affect the result.
+//
+// If there are variables, functions or mixins that depend on each other and
+// therefore need to be imported in a specific order you can import them
+// directly. Variables-, function- or mixin providing partials should never
+// output any styles themselves: Importing them multiple times to resolve
+// dependencies shouldn't be a problem.
+// override the bootstrap brand-primary colour
+//$brand-primary: $f00;
+@import "variables/**/*";
+
+@import "abstractions/**/*";
+// import bootstrap
+@import "../bootstrap/sass/bootstrap";
+
+
+@import "base/**/*";
+@import "components/**/*";
+// define a colour based on a bootstrap colour
+
+// remainder of sass goes here
+
+//better is splitting it up though.
