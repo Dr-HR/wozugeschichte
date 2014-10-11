@@ -42,7 +42,9 @@
 
   </head>
 
-<body class="{% body_class %}">
+{% capture id %}{{ page.url | replace:'/','-' | replace:'.','-' }}{% endcapture %}
+
+<body class="{{ id }}">
 
     <div id="wrap">
       <nav class="navbar navbar-default" role="navigation">

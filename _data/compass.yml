@@ -1,8 +1,7 @@
----
 require:
 - jekyll-compass
 - sass-globbing
-
+- compass
 project_path: "/media/discipolo/DATA/DEV/Projectrepos/CLIENTS/HAZEL/JEKYLL/wozugeschichte/"
 http_path: "/"
 css_dir: "assets/themes/bootstrap-3-sass/css"
