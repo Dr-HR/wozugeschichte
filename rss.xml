@@ -1,28 +1,130 @@
----
-layout: null
-title : RSS Feed
----
-
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>{{ site.title }}</title>
-        <description>{{ site.title }} - {{ site.author.name }}</description>
-        <link>{{ site.production_url }}{{ site.rss_path }}</link>
-        <link>{{ site.production_url }}</link>
-        <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
-        <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+        <title>Gastprof. Dr. Hazel Rosenstrauch</title>
+        <description>Gastprof. Dr. Hazel Rosenstrauch - Hazel Rosenstrauch</description>
+        <link>http://wozugeschichte.rosenstrauch.com</link>
+        <link>http://wozugeschichte.rosenstrauch.com</link>
+        <lastBuildDate>2014-10-12T13:23:47+02:00</lastBuildDate>
+        <pubDate>2014-10-12T13:23:47+02:00</pubDate>
         <ttl>1800</ttl>
 
-{% for post in site.posts %}
+
         <item>
-                <title>{{ post.title }}</title>
-                <description>{{ post.content | xml_escape }}</description>
-                <link>{{ site.production_url }}{{ post.url }}</link>
-                <guid>{{ site.production_url }}{{ post.id }}</guid>
-                <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+                <title>Spurensuche im 19 Jahrhundert</title>
+                <description>
+&lt;h2 id=&quot;zur-vorlesung-spurensuche-im-19-jahrhundert&quot;&gt;Zur Vorlesung: Spurensuche im 19. Jahrhundert&lt;/h2&gt;
+
+&lt;p&gt;Da ich nicht weiß, welche Studierenden kommen, ob Sie aus der Abteilung Design oder Kulturwissenschaft, Architektur oder sonstwoher kommen, ob Sie von Geschichte eine Ahnung haben oder sich dafür zumindest interessieren, hier ein paar App-etithappen: Themen, die mich interessieren, Sätze über die ich sprechen werde, Personen und Fragen, die mein Interesse an der Geschichte des frühen 19. Jahrhunderts begründen.&lt;/p&gt;
+
+&lt;p&gt;z.B. ein Zitat von Egon Fridell, dem Verfasser der Kulturgeschichte der Menschheit, die immerhin von den Anfängen bis ins 20. Jahrhundert reicht.
+Seite 940 meiner Ausgabe:
+“Mit dem Wiener Kongress beginnt die Geschichte der Gegenwart”&lt;/p&gt;
+
+&lt;p&gt;Seine Gegenwart, das Jahr, in dem die erste Ausgabe veröffentlicht wurde, war 1928
+Er ist da sehr “modern” (aber was heißt: modern), denn die meisten Darstellungen des Wiener Kongresses hangeln sich entlang der Begriffe “Reaktion versus Fortschritt”, die untergehende feudale Welt gegen den aufkeimenden Nationalstaat, Aristokraten versus Demokraten und viele andere Dualismen, die man heute anders betrachtet oder betrachten könnte.&lt;/p&gt;
+
+&lt;p&gt;Oder ein Satz aus dem Jahr 1814 “Zum Deutschen Kongresse”:
+“Die Untreue Napoleons gegen seine wahre Bestimmung erzeugte die barocke Erscheinung, daß er zugleich Feind der Unterdrückung und Feind der Freiheit wurde.” Was steckt da alles drin – Treue, Bestimmung, Barock, und vor allem die Ambivalenz zwischen Unterdrückung und Freiheit.&lt;/p&gt;
+
+&lt;p&gt;Mich interessiert, wie in der Ankündigung angedeutet, das “Machen” von Geschichte&lt;/p&gt;
+
+&lt;h3 id=&quot;eine-meiner-fragen&quot;&gt;Eine meiner Fragen:&lt;/h3&gt;
+&lt;p&gt;Eignet sich der Wiener Kongress für ein “europäisches Narrativ” falls ja, wie? Bzw.: sollte man das wünschen? Welche Vorbilder, Zwecke, Möglichkeiten bieten sich an?&lt;/p&gt;
+
+&lt;p&gt;s. dazu z.B. das Stichwort &lt;strong&gt;Europäisches Narrativ&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;http://ec.europa.eu/debate-future-europe/new-narrative/index_de.htm&lt;/li&gt;
+  &lt;li&gt;http://www.euractiv.de/europa-2020-und-reformen/artikel/hoyer-ein-neues-europaisches-narrativ-005630)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;s.a. Wiki-Definition von Kulturellem Gedächtnis:&lt;/p&gt;
+
+&lt;p&gt;Als kulturelles Gedächtnis bezeichnen die deutschen Kulturwissenschaftler Jan Assmann und Aleida Assmann „die Tradition in uns, die über Generationen, in jahrhunderte-, ja teilweise jahrtausendelanger Wiederholung gehärteten Texte, Bilder und Riten, die unser Zeit- und Geschichtsbewußtsein, unser Selbst- und Weltbild prägen.“
+samt der Frage, ob und wie und vor allem über welche “Medien” das 19. Jahrhundert in unserem Gedächtnis oder zumindest den Schulbüchern und Lexika aufbewahrt wird.&lt;/p&gt;
+
+&lt;h3 id=&quot;leicht-greifbare-literatur-dazu&quot;&gt;Leicht greifbare Literatur dazu:&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Aleida Assmann, Auf dem Weg zu einer europäischen Gedächtniskultur (Wiener Vorlesungen)&lt;/li&gt;
+  &lt;li&gt;Klaus Leggewie, Der Kampf um die europäische Erinnerung: Ein Schlachtfeld wird besichtigt
+s.a. Literaturhinweise zum Semnar&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;figuren-fr-erste-recherchen-leicht-im-netz-auffindbar&quot;&gt;Figuren (für erste Recherchen leicht im Netz auffindbar):&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Marie Louise, Kaiserin von Frankreich, 2. Gattin Napoleons, Erzherzogin von Österreich&lt;/li&gt;
+  &lt;li&gt;Fanny Arnstein, jüdische Salonière und Tochter eines Berliner Bankiers (ausführliche Biographie dazu von Hilde Spiel)&lt;/li&gt;
+  &lt;li&gt;Metternich!&lt;/li&gt;
+  &lt;li&gt;Katharina Bagration&lt;/li&gt;
+  &lt;li&gt;Wilhelmine von Sagan&lt;/li&gt;
+  &lt;li&gt;Zar Alexander&lt;/li&gt;
+  &lt;li&gt;Forts. folgt&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Kommentare, Fragen, Anmerkungen sind willkommen&lt;/strong&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;termine&quot;&gt;Termine&lt;/h3&gt;
+&lt;p&gt;Vorbesprechung am &lt;strong&gt;Montag, 20. Oktober 15:00 - 17:00&lt;/strong&gt;, HS 5 (Oskar-Kokoschka-Platz 2, Schwanzer Trakt)&lt;br /&gt;
+Die Vorlesung findet als Blockveranstaltung statt, weitere Termine werden noch bekanntgegeben.&lt;/p&gt;
+</description>
+                <link>http://wozugeschichte.rosenstrauch.com/vorlesung/2014/09/29/vortrag_prep_1</link>
+                <guid>http://wozugeschichte.rosenstrauch.com/vorlesung/2014/09/29/vortrag_prep_1</guid>
+                <pubDate>2014-09-29T00:00:00+02:00</pubDate>
         </item>
-{% endfor %}
+
+        <item>
+                <title>Jede Zeit schreibt ihre Geschichte</title>
+                <description>
+&lt;h2 id=&quot;zum-seminar-jede-zeit-schreibt-sich-ihre-geschichte&quot;&gt;Zum Seminar: Jede Zeit schreibt sich ihre Geschichte&lt;/h2&gt;
+
+&lt;p&gt;Es gibt wenige Ereignisse, die so gründlich dokumentiert wurden, wie der Wiener Kongress, aus politischer Perspektive, aber auch unter kulturellen, tratschorientierten und mentalen Gesichtspunkten.
+Neben der reichen historischen Literatur gibt es dieses Jahr eine Reihe Events, Kongresse, Ausstellungen, Bücher, Artikel etc. die sich für Eindrücke, Lektüre, Beobachtungen über die Wahrnehmung des Wiener Kongresses in unserer Zeit eignen:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.congresodeviena.at/&quot;&gt;http://www.congresodeviena.at/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.univie.ac.at/wgp/wordpress/?p=2913&quot;&gt;Workshop der Uni Wien 2013&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.wien.info/de/sightseeing/museen-ausstellungen/200-jahre-wiener-kongress&quot;&gt;Ausstellung im Belvedere&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.kaiserliche-wagenburg.at/besuchen/ausstellungen/der-kongress-faehrt/&quot;&gt;Ausstellung in der kaiserlichen Wagenburg&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://events.wien.info/de/gxx/wien-181415-die-stadt-und-der-kongress/&quot;&gt;Wiener Stadt- und Landesarchiv&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Hannes Etzlstorfer, “Der Wiener Kongress. Redouten, Karoussel und Köllnerwasser”, Wien 2014&lt;/li&gt;
+  &lt;li&gt;Anna Ehrlich, Christa Bauer, Der Wiener Kongress, Diplomaten, Intrigen und Skandale, Wien 2014, € 24.95&lt;/li&gt;
+  &lt;li&gt;Heinz Duchhardt, Der Wiener Kongress. Die Neugestaltung Europas 1814/15,München 2014, € 9,20&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.utb-shop.de/autoren-1/stauber-reinhard/der-wiener-kongress-2.html&quot;&gt;Reinhard Stauber, Der Wiener Kongress, Wien 2014, € 19,99&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.welt.de/geschichte/article132369445/Sex-Spiele-gaben-Europa-seine-neue-Ordnung.html&quot;&gt;Artikel in DIE WELT&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.zeit.de/2014/38/wiener-kongress-europa-frieden&quot;&gt;Artikel in DIE ZEIT vom 11. 9. 2014:&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.monikaczernin.com/autor/filme/diplomatische-liebschaften/&quot;&gt;Film von Monika Czernin, Diplomatische Liebschaften, Die Mätressen des Wiener Kongresses&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;Dokumentation von Roswitha und Ronald P. Vaughan&lt;/td&gt;
+          &lt;td&gt;3sat  am 15. 09. 2014: &lt;a href=&quot;http://programm.ard.de/TV/Programm/Jetzt-im-TV/?sendung=2800712811006797&quot;&gt;Und er bewegte sich doch - Neues vom Wiener Kongress.&lt;/a&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;last-not-least&quot;&gt;last not least:&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Hazel Rosenstrauch: Congress mit Damen. 1814/15: Europa zu Gast in Wien, Wien 2014, € 18,90&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Es wäre schön, wenn Sie (abgesehen von Wikipedia) in Ihren Schulbüchern oder Lexika nachschauen könnten, was dort steht.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;termine&quot;&gt;Termine&lt;/h3&gt;
+&lt;p&gt;Vorbesprechung am &lt;strong&gt;Freitag, 17. Oktober 10:00 - 12:30&lt;/strong&gt;, HS 5 (Oskar-Kokoschka-Platz 2, Schwanzer Trakt)&lt;br /&gt;
+Die LV wird als Blockveranstaltung durchgeführt. Weitere Termine werden bei der Vorbesprechung bekanntgegeben.&lt;/p&gt;
+</description>
+                <link>http://wozugeschichte.rosenstrauch.com/seminar/2014/09/29/seminar_prep_1</link>
+                <guid>http://wozugeschichte.rosenstrauch.com/seminar/2014/09/29/seminar_prep_1</guid>
+                <pubDate>2014-09-29T00:00:00+02:00</pubDate>
+        </item>
+
 
 </channel>
 </rss>

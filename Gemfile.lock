@@ -155,12 +155,11 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  compass
+  compass (~> 1.0.1)
   github-pages
   jekyll (~> 2.4.0)
   jekyll-assets (~> 0.8.1)
   jekyll-compass
-  jekyll-sass-converter
   sass (~> 3.3.9)
   sass-globbing
   uglifier
