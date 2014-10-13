@@ -8146,6 +8146,11 @@ a:hover {
   text-decoration: none;
 }
 
+/* line 6, ../../../../../assets/themes/bootstrap-3-sass/_scss/base/_typography.scss */
+h2 {
+  margin-top: 0;
+}
+
 /* line 2, ../../../../../assets/themes/bootstrap-3-sass/_scss/components/_navbar.scss */
 .navbar-default {
   background-image: -webkit-linear-gradient(top, #00b28f 0%, #007F66 100%);
