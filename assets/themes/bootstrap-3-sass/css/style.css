@@ -8053,7 +8053,7 @@ button.close {
 }
 
 /* line 1, ../../../../../assets/themes/bootstrap-3-sass/_scss/base/_lists.scss */
-li {
+ul li {
   list-style: none;
 }
 

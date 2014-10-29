@@ -8,5 +8,6 @@ http://wozugeschichte.rosenstrauch.com/rss.xml
 http://wozugeschichte.rosenstrauch.com/sitemap.txt
 http://wozugeschichte.rosenstrauch.com/tags.html
 
+http://wozugeschichte.rosenstrauch.com/seminar/2014/11/16/next_level
 http://wozugeschichte.rosenstrauch.com/vorlesung/2014/09/29/vortrag_prep_1
 http://wozugeschichte.rosenstrauch.com/seminar/2014/09/29/seminar_prep_1
